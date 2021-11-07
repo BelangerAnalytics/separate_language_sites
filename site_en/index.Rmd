@@ -1,0 +1,136 @@
+---
+title: "Find a Physician"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme:
+      version: 4
+      bootswatch: cerulean
+    navbar:
+    - { title: "Français", href: "https://trouvez-un-medecin-francais.netlify.app/" }
+---
+
+```{r setup, include=FALSE, message = FALSE, warning = FALSE, context = "server", encoding = "UTF-8"}
+# ENGLISH-ONLY SITE.
+# NOTE! Navbar Link.... could be easy way to do multi language
+#     navbar:
+    #- { title: "About", href: "https://example.com/about" }
+
+library(flexdashboard)
+library(tidyverse)
+library(leaflet)
+library(widgetframe)
+library(htmlwidgets)
+library(utf8)
+
+contact_en <- 'For more information or to submit a correction please contact  [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca).'
+
+contact_fr <- 'Pour de plus amples informations ou pour soumettre une correction, veuillez contacter [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca).'
+
+license_en <- '© Use freely, with credit to the authors. Not for commercial use. Do not modify or translate without permission. This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Please contact [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca) for more information.'
+
+license_fr <- "© Utilisation libre, avec crédit aux auteurs. Pas pour usage commercial. Ne pas modifier ou traduire sans autorisation. Ce travail est sous licence [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Veuillez contacter [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca) pour plus d'informations."
+
+```
+
+Ottawa {data-navmenu="Region Maps"}
+=====================================  
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### 
+
+```{r out.extra='style="border: none;"', out.width = "100%"}
+
+knitr::include_url("maps/ottawa_en.html", height = "100%") 
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+
+### Finding a Family Physician
+
+This interactive bilingual map shows the names, practice locations, and language abilities of family physicians who serve the community in Ottawa, Ontario. **Please note:** This map does not provide any information about which physicians are taking on new patients.
+
+Select a language from the options on the map to see all family physicians who report being able to speak it.
+
+If physicians are close together, the map groups them into clusters. Zoom in or click on a cluster to see markers for individual physicians.
+
+Hovering your mouse over a marker will show a physician's information. Clicking on it will load the information with a clickable link to view their clinic on Google Maps for finding directions.
+
+*Please note: This is for information only, and there is no guarantee that physicians listed here are accepting new patients.*
+
+### About This Data
+
+*Disclaimer:*  
+
+This data is provided on a best-efforts basis with no guarantee as to its completeness or reliability. Not all physicians listed here are guaranteed to be accepting new patients.
+
+*Data Sources:*
+
+Data was originally collected from the College of Physicians and Surgeons of Ontario (CPSO) in January 2021 and is reviewed and updated from time to time for accuracy, but there may be errors or incomplete data. 
+
+*License Information:*
+
+`r license_en`
+
+*Contact Us:*
+
+`r contact_en`
+
+*Site updated `r Sys.Date()`. Design & analysis by [Belanger Analytics Inc.](https://www.belangeranalytics.com)*
+
+
+Renfrew County {data-navmenu="Region Maps"}
+=====================================  
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### 
+
+```{r out.extra='style="border: none;"', out.width = "100%"}
+
+knitr::include_url("maps/renfrew_en.html", height = "100%") 
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+
+### Finding a Family Physician
+
+This interactive bilingual map shows the names, locations, and language abilities of family physicians who serve the community in and near Renfrew County, Ontario. **Please note:** This map does not provide any information about which physicians are taking on new patients.
+
+Select a language from the options on the map to see all family physicians who report being able to speak it.
+
+If physicians are close together, the map groups them into clusters. Zoom in or click on a cluster to see markers for individual physicians.
+
+Hovering your mouse over a marker will show a physician's information. Clicking on it will load the information with a clickable link to view their clinic on Google Maps for finding directions.
+
+*Please note: This is for information only, and there is no guarantee that physicians listed here are accepting new patients.*
+
+### About This Data
+
+*Disclaimer:*  
+
+This data is provided on a best-efforts basis with no guarantee as to its completeness or reliability. Not all physicians listed here are guaranteed to be accepting new patients.
+
+*Data Sources:*
+
+This data was collected from Renfrew County and the College of Physicians and Surgeons of Ontario (CPSO) in spring 2021. This data is reviewed and updated from time to time for accuracy, but there may be errors or incomplete data. 
+
+*License Information:*
+
+`r license_en`
+
+*Contact Us:*
+
+`r contact_en`
+
+*Site updated `r Sys.Date()`. Design & analysis by [Belanger Analytics Inc.](https://www.belangeranalytics.com)*
