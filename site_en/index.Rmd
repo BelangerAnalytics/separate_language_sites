@@ -8,7 +8,7 @@ output:
       version: 4
       bootswatch: cerulean
     navbar:
-    - { title: "Français", href: "https://trouvez-un-medecin-francais.netlify.app/" }
+    - { title: "Français", href: "https://www.trouvezunmedecin.ca" }
 ---
 
 ```{r setup, include=FALSE, message = FALSE, warning = FALSE, context = "server", encoding = "UTF-8"}

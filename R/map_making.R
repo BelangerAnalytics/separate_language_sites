@@ -1,13 +1,13 @@
 
 # FIXME! PUT TARGET ONE CALL PER LOCATION THIS WILL MAKE THE MAPS
-make_docmaps_forweb <- function(data_file, lang_data){
+make_docmaps_forweb <- function(data_file, city_name, lang_data){
   # loop through two langauges, render maps
   for (lang in c("en", "fr")){
     
   make_docmap(data_file = data_file,
               map_language = toupper(lang),
-              lang_data = map_langs) %>%
-    htmlwidgets::saveWidget(file = sprintf("site_%s/maps/ottawa_%s.html", lang, lang),
+              lang_data = lang_data) %>%
+    htmlwidgets::saveWidget(file = sprintf("site_%s/maps/%s_%s.html", lang, city_name, lang),
                             libdir = "map_libs") 
   
   }
@@ -20,6 +20,8 @@ make_docmap <- function(data_file, # = "data/docs_ottawa",
                         lang_data,
                         verbose = FALSE){
 
+  message(sprintf("%s: %s", data_file, map_language))
+  
   # parse our input language
   map_language <- toupper(map_language)
   map_language = match.arg(map_language, map_language)
@@ -77,10 +79,13 @@ make_docmap <- function(data_file, # = "data/docs_ottawa",
            official_lang = language %in% official_languages) %>%
     arrange(desc(official_lang), language)
 
+  # TESTING
+  doc_nested$language[1:2] <- sprintf("<b>%s</b>", doc_nested$language[1:2])
+  
   # we also want an "All" option first on the list, even though it has the same
   # physicians as are listed under "English"
   doc_nested_all <- doc_nested[1,] %>%
-    mutate(language = if_else(map_language == "EN", "All", "Toutes"))
+    mutate(language = if_else(map_language == "EN", "<b>(All)</b>", "<b>(Toutes)</b>"))
 
   doc_nested <- bind_rows(doc_nested_all,
             doc_nested)
@@ -104,6 +109,7 @@ make_docmap <- function(data_file, # = "data/docs_ottawa",
     fax_num <- "Fax"
   }
 
+  
 
   for (i in 1:nrow(doc_nested)){
     lang <- doc_nested$language[[i]]

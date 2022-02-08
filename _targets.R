@@ -53,24 +53,27 @@ list(
     format = "file"
   ),
   
-  tar_target(
-    map_ottawa_en,
-    make_docmap(data_file = docs_ottawa_file,
-                map_language = "EN",
-                lang_data = map_langs) %>%
-      htmlwidgets::saveWidget(file = "site_en/maps/ottawa_en.html",
-                              libdir = "map_libs") 
-    
-  ),
+  tar_target(maps_ottawa,
+             make_docmaps_forweb(docs_ottawa_file, "ottawa", map_langs)),
   
-  tar_target(
-    map_ottawa_fr,
-    make_docmap(data_file = docs_ottawa_file,
-                map_language = "FR",
-                lang_data = map_langs) %>%
-      htmlwidgets::saveWidget(file = "site_fr/maps/ottawa_fr.html",
-                              libdir = "map_libs")
-  ),
+  # tar_target(
+  #   map_ottawa_en,
+  #   make_docmap(data_file = docs_ottawa_file,
+  #               map_language = "EN",
+  #               lang_data = map_langs) %>%
+  #     htmlwidgets::saveWidget(file = "site_en/maps/ottawa_en.html",
+  #                             libdir = "map_libs") 
+  #   
+  # ),
+  # 
+  # tar_target(
+  #   map_ottawa_fr,
+  #   make_docmap(data_file = docs_ottawa_file,
+  #               map_language = "FR",
+  #               lang_data = map_langs) %>%
+  #     htmlwidgets::saveWidget(file = "site_fr/maps/ottawa_fr.html",
+  #                             libdir = "map_libs")
+  # ),
   
 
   
@@ -82,23 +85,27 @@ list(
     format = "file"
   ),
   
-  tar_target(
-    map_renfrew_en,
-    make_docmap(data_file = docs_renfrew_file,
-                map_language = "EN",
-                lang_data = map_langs) %>%
-      htmlwidgets::saveWidget(file = "site_en/maps/renfrew_en.html",
-                              libdir = "map_libs") 
-  ),
+  tar_target(maps_renfrew,
+             make_docmaps_forweb(docs_renfrew_file, "renfrew", map_langs)),
   
-  tar_target(
-    map_renfrew_fr,
-    make_docmap(data_file = docs_renfrew_file,
-                map_language = "FR",
-                lang_data = map_langs) %>%
-      htmlwidgets::saveWidget(file = "site_fr/maps/renfrew_fr.html",
-                              libdir = "map_libs")
-    ),
+  
+  # tar_target(
+  #   map_renfrew_en,
+  #   make_docmap(data_file = docs_renfrew_file,
+  #               map_language = "EN",
+  #               lang_data = map_langs) %>%
+  #     htmlwidgets::saveWidget(file = "site_en/maps/renfrew_en.html",
+  #                             libdir = "map_libs") 
+  # ),
+  # 
+  # tar_target(
+  #   map_renfrew_fr,
+  #   make_docmap(data_file = docs_renfrew_file,
+  #               map_language = "FR",
+  #               lang_data = map_langs) %>%
+  #     htmlwidgets::saveWidget(file = "site_fr/maps/renfrew_fr.html",
+  #                             libdir = "map_libs")
+  #   ),
 
  
   ### render the indexes
