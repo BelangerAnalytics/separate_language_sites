@@ -1,14 +1,30 @@
+# https://stackoverflow.com/questions/35720698/is-it-possible-to-include-custom-css-in-htmlwidgets-for-r-and-or-leafletr
+
+# @media (hover: none) {
+#   .leaflet-tooltip-pane { display: none; }
+# }
 
 # FIXME! PUT TARGET ONE CALL PER LOCATION THIS WILL MAKE THE MAPS
 make_docmaps_forweb <- function(data_file, city_name, lang_data){
   # loop through two langauges, render maps
   for (lang in c("en", "fr")){
     
-  make_docmap(data_file = data_file,
+    # create the map
+  new_map <- make_docmap(data_file = data_file,
               map_language = toupper(lang),
-              lang_data = lang_data) %>%
+              lang_data = lang_data) 
+  
+  message("map made")
+  
+  # prepend some custom css to hide the tooltip on devices with no hover
+  # (i.e. phones, tablets) where both popups and tooltips were confusing
+  new_map %>%
+    htmlwidgets::prependContent(htmltools::HTML("<style>@media (hover: none) {.leaflet-tooltip-pane { display: none; } };}</style>")) %>%
     htmlwidgets::saveWidget(file = sprintf("site_%s/maps/%s_%s.html", lang, city_name, lang),
                             libdir = "map_libs") 
+  
+  #map_with_css_to_hide_hovers_on_mobile
+  message("map saved")
   
   }
 }
