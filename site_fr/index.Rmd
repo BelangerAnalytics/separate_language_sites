@@ -2,6 +2,8 @@
 title: "Trouvez un médecin"
 output: 
   flexdashboard::flex_dashboard:
+    includes:
+      in_header: google_analytics_english.html
     orientation: columns
     vertical_layout: fill
     theme:
