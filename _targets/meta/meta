@@ -7,12 +7,12 @@ map_ottawa_fr|stem|0423d8e73b6f5a12|10e39c4faceabf78|66f17f75480abc67|-187616399
 map_ottawa_en|stem|0423d8e73b6f5a12|a2ef3621d29c9563|66f17f75480abc67|1793079536|_targets/objects/map_ottawa_en|96a507b4170976ee|10da61cba4cac40f|44|rds|vector|||2.95||
 map_renfrew_en|stem|0423d8e73b6f5a12|0c77557a462b88e5|7a9e278e12326793|1552243324|_targets/objects/map_renfrew_en|af7472b3000f8b1a|10da61cba4cac40f|44|rds|vector|||1.21||
 map_renfrew_fr|stem|0423d8e73b6f5a12|960db5adeac7e27c|7a9e278e12326793|579364219|_targets/objects/map_renfrew_fr|19d01ed87467df2b|10da61cba4cac40f|44|rds|vector|||0.99||
-index_fr|stem|f7556a5ec61c34e3|fe65211b713f3727|4745aa592080ea1d|-636881759|site_fr/index.html*site_fr/index.Rmd|ea0c11158c1056fd|a6842d843095d4a2|982099|file|vector|||4.25|file only supports open  w and open  wb using the former|
+index_en|stem|4ee3ae73b9566d23|e7e0dd9090d82b0c|4745aa592080ea1d|502332226|site_en/index.html*site_en/index.Rmd|9c36edf62029f7eb|936b8ac0538f4228|1024777|file|vector|||1.06|file only supports open  w and open  wb using the former|
 make_docmap|function|d3bef48002fedd55||||||||||||||
 make_docmaps_forweb|function|d30198c6b726a8e0||||||||||||||
 lang_file|stem|a3a1b6fe1c005959|b0716a65add5e914|ef46db3751d8e999|-1609543572|data/langs.csv|3a179bfe80f3417c|a4e5bda1921f8c41|949|file|vector|||1.21||
 docs_renfrew_file|stem|3957fc8933ef2bfc|d1bacfb3d2086e20|ef46db3751d8e999|627663205|data/docs_renfrew_2021-08-17.csv|5fcffd87211219db|acbe1b18806a366d|34074|file|vector|||1.22||
-index_en|stem|67b3db0f6cb298c0|e7e0dd9090d82b0c|4745aa592080ea1d|502332226|site_en/index.html*site_en/index.Rmd|f91d5dfd5927a2c7|4c3c126d7383ea5a|1020469|file|vector|||3.19|file only supports open  w and open  wb using the former|
+index_fr|stem|de130435a86d99a3|fe65211b713f3727|4745aa592080ea1d|-636881759|site_fr/index.html*site_fr/index.Rmd|d589c6dbf4daefd5|316759cee292fc30|1026433|file|vector|||3.21|file only supports open  w and open  wb using the former|
 map_langs|stem|97b1de496a8ad367|595a37a353973228|d999a8373e75f73b|649478011|_targets/objects/map_langs|af2ab3eef6de3637|dd1b0cc09f0e6cb5|818|rds|vector|||1.28||
 maps_renfrew|stem|0423d8e73b6f5a12|22220e1a71343d22|65d4b93ce5f9b03d|-1170904835|_targets/objects/maps_renfrew|251d79cb1438b94b|10da61cba4cac40f|44|rds|vector|||4.04|package htmltools was built under R version 4.0.5|
 maps_ottawa|stem|0423d8e73b6f5a12|3471ab442d9d5cd5|44d5384d5166de11|807318398|_targets/objects/maps_ottawa|021466ecff04f035|10da61cba4cac40f|44|rds|vector|||6.25||
@@ -20,7 +20,7 @@ make_docmap|function|d3bef48002fedd55
 make_docmaps_forweb|function|d30198c6b726a8e0
 lang_file|stem|a3a1b6fe1c005959|b0716a65add5e914|ef46db3751d8e999|-1609543572|data/langs.csv|3a179bfe80f3417c|a4e5bda1921f8c41|949|file|vector|||1.21||
 docs_renfrew_file|stem|3957fc8933ef2bfc|d1bacfb3d2086e20|ef46db3751d8e999|627663205|data/docs_renfrew_2021-08-17.csv|5fcffd87211219db|acbe1b18806a366d|34074|file|vector|||1.22||
-index_fr|stem|6bdb073d948b045c|fe65211b713f3727|4745aa592080ea1d|-636881759|site_fr/index.html*site_fr/index.Rmd|53408f592fd55278|44842ebe9e9cf164|1024631|file|vector|||3.06|file only supports open  w and open  wb using the former|
+index_fr|stem|df72333de0ed0c50|fe65211b713f3727|4745aa592080ea1d|-636881759|site_fr/index.html*site_fr/index.Rmd|9eee0d46b9947765|fd17f1facc229cd0|1026417|file|vector|||3.29|file only supports open  w and open  wb using the former|
 map_langs|stem|97b1de496a8ad367|595a37a353973228|d999a8373e75f73b|649478011|_targets/objects/map_langs|af2ab3eef6de3637|dd1b0cc09f0e6cb5|818|rds|vector|||1.28||
 maps_renfrew|stem|0423d8e73b6f5a12|22220e1a71343d22|65d4b93ce5f9b03d|-1170904835|_targets/objects/maps_renfrew|251d79cb1438b94b|10da61cba4cac40f|44|rds|vector|||4.04|package htmltools was built under R version 4.0.5|
 maps_ottawa|stem|0423d8e73b6f5a12|3471ab442d9d5cd5|44d5384d5166de11|807318398|_targets/objects/maps_ottawa|021466ecff04f035|10da61cba4cac40f|44|rds|vector|||6.25||

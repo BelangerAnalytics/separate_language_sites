@@ -13,12 +13,37 @@ output:
     - { title: "English", href: "https://www.docmapper.ca" }
 ---
 
+```{=html}
+
+<div class="modal show"  id="surveyModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+          <div class="modal-header">
+        <h4 class="modal-title">Nous voulons savoir ce que vous pensez!</h4>
+      </div>
+      <div class="modal-body"><p> Veuillez s'il vous plait prendre un moment pour répondre à un court sondage de manière anonyme afin de nous aider à améliorer notre carte interactive.</p></div>
+      <div class="modal-footer">
+      <button id="a" type="button" class="btn btn-default" onclick="window.open(&#39;https://redcap.montfort.on.ca/redcap/surveys/?s=3MA8YWRTL4EDF8EN&#39;, &#39;_blank&#39;)">Répondre au sondage</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" >Non merci</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+  
+<script>
+  $('#surveyModal').modal('show');
+</script>
+```
+
+
+
 ```{r setup, include=FALSE, message = FALSE, warning = FALSE, context = "server", encoding = "UTF-8"}
 #FRENCH-ONLY SITE
 
 # NOTE! Navbar Link.... could be easy way to do multi language
 #     navbar:
-    #- { title: "About", href: "https://example.com/about" }
+#- { title: "About", href: "https://example.com/about" }
 
 library(flexdashboard)
 library(tidyverse)
@@ -47,7 +72,7 @@ Column {data-width=650}
 
 ```{r out.extra='style="border: none;"', out.width = "100%", out.height="100%"}
 
- # docmap_fr
+# docmap_fr
 knitr::include_url("maps/ottawa_fr.html", height = "100%")
 
 ```
@@ -102,7 +127,7 @@ Column {data-width=650}
 
 ```{r out.extra='style="border: none;"', out.width = "100%", out.height="100%"}
 
- # docmap_fr
+# docmap_fr
 knitr::include_url("maps/renfrew_fr.html", height = "100%")
 
 ```

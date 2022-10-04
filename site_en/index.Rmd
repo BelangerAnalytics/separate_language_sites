@@ -12,6 +12,28 @@ output:
     navbar:
     - { title: "Français", href: "https://www.trouvezunmedecin.ca" }
 ---
+```{=html}
+
+<div class="modal show"  id="surveyModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+          <div class="modal-header">
+        <h4 class="modal-title">We want to hear what you think!</h4>
+      </div>
+      <div class="modal-body"><p> Please take a moment to fill out a short, anonymous survey to help us improve our interactive map.</p></div>
+      <div class="modal-footer">
+      <button id="a" type="button" class="btn btn-default" onclick="window.open(&#39;https://redcap.montfort.on.ca/redcap/surveys/?s=FM7DC4PX3M7HC4KD&#39;, &#39;_blank&#39;)">Take Survey</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" >No Thank You</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+  
+<script>
+  $('#surveyModal').modal('show');
+</script>
+```
 
 ```{r setup, include=FALSE, message = FALSE, warning = FALSE, context = "server", encoding = "UTF-8"}
 # ENGLISH-ONLY SITE.
