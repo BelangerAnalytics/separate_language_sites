@@ -49,7 +49,7 @@ list(
   
   tar_target(
     docs_ottawa_file,
-      "data/docs_ottawa_mapclean_2021-08-17.csv",
+      "data/docs_ottawa_mapclean_2023-01-06.csv",
     format = "file"
   ),
   
