@@ -14,7 +14,6 @@ output:
 ---
 
 ```{=html}
-
 <div class="modal show"  id="surveyModal">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -23,7 +22,7 @@ output:
       </div>
       <div class="modal-body"><p> Veuillez s'il vous plait prendre un moment pour répondre à un court sondage de manière anonyme afin de nous aider à améliorer notre carte interactive.</p></div>
       <div class="modal-footer">
-      <button id="a" type="button" class="btn btn-default" onclick="window.open(&#39;https://redcap.montfort.on.ca/redcap/surveys/?s=3MA8YWRTL4EDF8EN&#39;, &#39;_blank&#39;)">Répondre au sondage</button>
+      <button id="a" type="button" class="btn btn-default" onclick="window.open(&#39;https://redcap.montfort.on.ca/redcap/surveys/?s=3YXC97897LF9DCF4&#39;, &#39;_blank&#39;)">Répondre au sondage</button>
         <button type="button" class="btn btn-default" data-dismiss="modal" >Non merci</button>
       </div>
     </div>
@@ -56,9 +55,9 @@ contact_en <- 'For more information or to submit a correction please contact  [l
 
 contact_fr <- 'Pour de plus amples informations ou pour soumettre une correction, veuillez contacter [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca).'
 
-license_en <- '© Use freely, with credit to the authors. Not for commercial use. Do not modify or translate without permission. This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Please contact [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca) for more information.'
+license_en <- '© Use freely, with credit to the authors. Not for commercial use. Do not modify or translate without permission. This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).'# Please contact [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca) for more information.'
 
-license_fr <- "© Utilisation libre, avec crédit aux auteurs. Pas pour usage commercial. Ne pas modifier ou traduire sans autorisation. Ce travail est sous licence [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Veuillez contacter [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca) pour plus d'informations."
+license_fr <- "© Utilisation libre, avec crédit aux auteurs. Pas pour usage commercial. Ne pas modifier ou traduire sans autorisation. Ce travail est sous licence [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)."# Veuillez contacter [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca) pour plus d'informations."
 
 ```
 
@@ -83,6 +82,8 @@ Column {data-width=350}
 
 ### Trouvez un médecin de famille 
 
+**Nous voulons savoir ce que vous pensez!** [Veuillez s'il vous plait prendre un moment pour répondre à un court sondage de manière anonyme afin de nous aider à améliorer notre carte interactive.](https://redcap.montfort.on.ca/redcap/surveys/?s=3YXC97897LF9DCF4)
+
 Cette carte interactive bilingue indique les noms, les emplacements et les compétences linguistiques des médecins de famille qui desservent la communauté d'Ottawa, en Ontario. **Veuillez noter** que cette carte ne fournit aucune information sur les médecins qui acceptent de nouveaux patients.
 
 Sélectionnez une langue parmi les options de la carte pour voir tous les médecins de famille qui déclarent pouvoir la parler.
@@ -92,7 +93,6 @@ Si les médecins sont proches les uns des autres, la carte les regroupe en grapp
 Si vous passez votre souris sur un marqueur, les informations relatives au médecin s'affichent. Si vous cliquez dessus, les informations s'affichent avec un lien cliquable permettant de visualiser sa clinique sur Google Maps pour trouver son chemin.
 
 *Veuillez noter que cette liste n'est fournie qu'à titre d'information et qu'il n'est pas garanti que les médecins qui y figurent acceptent de nouveaux patients.*
-
 
 ### Les Données
 
@@ -108,9 +108,9 @@ Les données ont été recueillies à l'origine auprès de l'Ordre des médecins
 
 `r license_fr`
 
-*Nous contacter:*
+<!-- *Nous contacter:* -->
 
-`r contact_fr`
+<!-- `r contact_fr` -->
 
 *Site mis à jour le `r Sys.Date()`. Conception et analyse par [Belanger Analytics Inc.](https://www.belangeranalytics.com)*
 
@@ -163,8 +163,8 @@ Les données ont été recueillies auprès du comté de Renfrew et de l'Ordre de
 
 `r license_fr`
 
-*Nous contacter:*
+<!-- *Nous contacter:* -->
 
-`r contact_fr`
+<!-- `r contact_fr` -->
 
 *Site mis à jour le `r Sys.Date()`. Conception et analyse par [Belanger Analytics Inc.](https://www.belangeranalytics.com)*

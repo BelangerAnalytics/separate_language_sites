@@ -13,7 +13,6 @@ output:
     - { title: "Français", href: "https://www.trouvezunmedecin.ca" }
 ---
 ```{=html}
-
 <div class="modal show"  id="surveyModal">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -22,7 +21,7 @@ output:
       </div>
       <div class="modal-body"><p> Please take a moment to fill out a short, anonymous survey to help us improve our interactive map.</p></div>
       <div class="modal-footer">
-      <button id="a" type="button" class="btn btn-default" onclick="window.open(&#39;https://redcap.montfort.on.ca/redcap/surveys/?s=FM7DC4PX3M7HC4KD&#39;, &#39;_blank&#39;)">Take Survey</button>
+      <button id="a" type="button" class="btn btn-default" onclick="window.open(&#39;https://redcap.montfort.on.ca/redcap/surveys/?s=3YXC97897LF9DCF4&#39;, &#39;_blank&#39;)">Take Survey</button>
         <button type="button" class="btn btn-default" data-dismiss="modal" >No Thank You</button>
       </div>
     </div>
@@ -52,9 +51,9 @@ contact_en <- 'For more information or to submit a correction please contact  [l
 
 contact_fr <- 'Pour de plus amples informations ou pour soumettre une correction, veuillez contacter [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca).'
 
-license_en <- '© Use freely, with credit to the authors. Not for commercial use. Do not modify or translate without permission. This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Please contact [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca) for more information.'
+license_en <- '© Use freely, with credit to the authors. Not for commercial use. Do not modify or translate without permission. This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).'# Please contact [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca) for more information.'
 
-license_fr <- "© Utilisation libre, avec crédit aux auteurs. Pas pour usage commercial. Ne pas modifier ou traduire sans autorisation. Ce travail est sous licence [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Veuillez contacter [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca) pour plus d'informations."
+license_fr <- "© Utilisation libre, avec crédit aux auteurs. Pas pour usage commercial. Ne pas modifier ou traduire sans autorisation. Ce travail est sous licence [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)."# Veuillez contacter [lbjerre@uottawa.ca](mailto:lbjerre@uottawa.ca) pour plus d'informations."
 
 ```
 
@@ -77,6 +76,8 @@ Column {data-width=350}
 
 
 ### Finding a Family Physician
+
+**We want to hear what you think!** [Please take a moment to fill out a short, anonymous survey to help us improve our interactive map.](https://redcap.montfort.on.ca/redcap/surveys/?s=3YXC97897LF9DCF4)
 
 This interactive bilingual map shows the names, practice locations, and language abilities of family physicians who serve the community in Ottawa, Ontario. **Please note:** This map does not provide any information about which physicians are taking on new patients.
 
@@ -102,9 +103,9 @@ Data was originally collected from the College of Physicians and Surgeons of Ont
 
 `r license_en`
 
-*Contact Us:*
+<!-- *Contact Us:* -->
 
-`r contact_en`
+<!-- `r contact_en` -->
 
 *Site updated `r Sys.Date()`. Design & analysis by [Belanger Analytics Inc.](https://www.belangeranalytics.com)*
 
@@ -153,8 +154,8 @@ This data was collected from Renfrew County and the College of Physicians and Su
 
 `r license_en`
 
-*Contact Us:*
+<!-- *Contact Us:* -->
 
-`r contact_en`
+<!-- `r contact_en` -->
 
 *Site updated `r Sys.Date()`. Design & analysis by [Belanger Analytics Inc.](https://www.belangeranalytics.com)*
