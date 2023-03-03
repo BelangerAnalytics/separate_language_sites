@@ -1,26 +1,20 @@
-name|type|data|command|depend|seed|path|time|size|bytes|format|iteration|parent|children|seconds|warnings|error
-gmap_api_key|stem||909b3e8b0223a018|c3b5fc02cdc369c1|-731682812||||0|rds|vector|||1.58||..chris_google_apichris_google_api_key.csv does not exist in current working directory CUserschrisOneDrive  Belanger
-docs_ottawa|stem|6101d886499af3ab|8129cd0860a5d272|81c3de4da8077727|-1843893998|_targets/objects/docs_ottawa|445a06dcc580d58c|6051ee807dc7fc4e|908955|rds|vector|||0.12|37 parsing failures. row                  col           expected|
-lang|stem|97b1de496a8ad367|595a37a353973228|d999a8373e75f73b|-1451205486|_targets/objects/lang|89961e9254bf587f|dd1b0cc09f0e6cb5|818|rds|vector|||0.08||
-map_ottawa_fr|stem|0423d8e73b6f5a12|10e39c4faceabf78|66f17f75480abc67|-1876163993|_targets/objects/map_ottawa_fr|cc31283446a809f7|10da61cba4cac40f|44|rds|vector|||5.82|package htmltools was built under R version 4.0.5|
-map_ottawa_en|stem|0423d8e73b6f5a12|a2ef3621d29c9563|66f17f75480abc67|1793079536|_targets/objects/map_ottawa_en|96a507b4170976ee|10da61cba4cac40f|44|rds|vector|||2.95||
-map_renfrew_en|stem|0423d8e73b6f5a12|0c77557a462b88e5|7a9e278e12326793|1552243324|_targets/objects/map_renfrew_en|af7472b3000f8b1a|10da61cba4cac40f|44|rds|vector|||1.21||
-map_renfrew_fr|stem|0423d8e73b6f5a12|960db5adeac7e27c|7a9e278e12326793|579364219|_targets/objects/map_renfrew_fr|19d01ed87467df2b|10da61cba4cac40f|44|rds|vector|||0.99||
-make_docmap|function|d3bef48002fedd55||||||||||||||
-make_docmaps_forweb|function|d30198c6b726a8e0||||||||||||||
-lang_file|stem|a3a1b6fe1c005959|b0716a65add5e914|ef46db3751d8e999|-1609543572|data/langs.csv|3a179bfe80f3417c|a4e5bda1921f8c41|949|file|vector|||1.21||
-docs_renfrew_file|stem|3957fc8933ef2bfc|d1bacfb3d2086e20|ef46db3751d8e999|627663205|data/docs_renfrew_2021-08-17.csv|5fcffd87211219db|acbe1b18806a366d|34074|file|vector|||1.22||
-index_fr|stem|e28b0e2b49e8fed3|fe65211b713f3727|4745aa592080ea1d|-636881759|site_fr/index.html*site_fr/index.Rmd|0d246378c619fe6b|c05161d2ec2ae583|1037734|file|vector|||7.41|file only supports open  w and open  wb using the former|
-index_en|stem|8d8d0733402b29f7|e7e0dd9090d82b0c|4745aa592080ea1d|502332226|site_en/index.html*site_en/index.Rmd|e4b2df25672f365e|1ba399caf90e8d2b|1035985|file|vector|||1.41|file only supports open  w and open  wb using the former|
-docs_ottawa_file|stem|f13bdc7aa6e50bac|47dbc49cff5a76aa|ef46db3751d8e999|69307907|data/docs_ottawa_mapclean_2023-01-06.csv|dc3bf46c15089fcc|9326c04b86f2c811|153633|file|vector|||0||
-map_langs|stem|97b1de496a8ad367|595a37a353973228|d999a8373e75f73b|649478011|_targets/objects/map_langs|af2ab3eef6de3637|dd1b0cc09f0e6cb5|818|rds|vector|||1.28||
-maps_renfrew|stem|0423d8e73b6f5a12|22220e1a71343d22|65d4b93ce5f9b03d|-1170904835|_targets/objects/maps_renfrew|251d79cb1438b94b|10da61cba4cac40f|44|rds|vector|||4.04|package htmltools was built under R version 4.0.5|
-maps_ottawa|stem|0423d8e73b6f5a12|3471ab442d9d5cd5|ab9720bc6ec96db8|807318398|_targets/objects/maps_ottawa|41023b95ad39566f|10da61cba4cac40f|44|rds|vector|||21.86||
-make_docmap|function|d3bef48002fedd55
-make_docmaps_forweb|function|d30198c6b726a8e0
-lang_file|stem|a3a1b6fe1c005959|b0716a65add5e914|ef46db3751d8e999|-1609543572|data/langs.csv|3a179bfe80f3417c|a4e5bda1921f8c41|949|file|vector|||1.21||
-docs_renfrew_file|stem|3957fc8933ef2bfc|d1bacfb3d2086e20|ef46db3751d8e999|627663205|data/docs_renfrew_2021-08-17.csv|5fcffd87211219db|acbe1b18806a366d|34074|file|vector|||1.22||
-docs_ottawa_file|stem|25b9a320bde28ca5|47dbc49cff5a76aa|ef46db3751d8e999|69307907|data/docs_ottawa_mapclean_2023-01-06.csv|eb6a6e0f53d9da86|7bf1f75231415d09|156911|file|vector|||6.31|package htmltools was built under R version 4.0.5|
-map_langs|stem|97b1de496a8ad367|595a37a353973228|d999a8373e75f73b|649478011|_targets/objects/map_langs|af2ab3eef6de3637|dd1b0cc09f0e6cb5|818|rds|vector|||1.28||
-maps_renfrew|stem|0423d8e73b6f5a12|22220e1a71343d22|65d4b93ce5f9b03d|-1170904835|_targets/objects/maps_renfrew|251d79cb1438b94b|10da61cba4cac40f|44|rds|vector|||4.04|package htmltools was built under R version 4.0.5|
-maps_ottawa|stem|0423d8e73b6f5a12|3471ab442d9d5cd5|eb36973845dd3100|807318398|_targets/objects/maps_ottawa|5291af854885b759|10da61cba4cac40f|44|rds|vector|||28.99||
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+docs_alberta_file|stem|c286f63e05c08f7a|1777e50f557041d4|ef46db3751d8e999|1092465125|data/AB-docs-clean-geocoded-filtered-docmapper-2023-03-02.csv|t19419.0754935572s|9e9bc65fee74f293|969096|file|local|vector|||1.25||
+docs_ottawa|stem|6101d886499af3ab|8129cd0860a5d272|81c3de4da8077727|-1843893998|_targets/objects/docs_ottawa|445a06dcc580d58c|6051ee807dc7fc4e|908955|rds|local|vector|||0.12|37 parsing failures. row                  col           expected|
+docs_ottawa_file|stem|25b9a320bde28ca5|47dbc49cff5a76aa|ef46db3751d8e999|69307907|data/docs_ottawa_mapclean_2023-01-06.csv|t19363.7986487455s|50195b03f1d0c209|156911|file|local|vector|||6.31|package htmltools was built under R version 4.0.5|
+docs_renfrew_file|stem|3957fc8933ef2bfc|d1bacfb3d2086e20|ef46db3751d8e999|627663205|data/docs_renfrew_2021-08-17.csv|t18856.7254799588s|0d3ef19fc310aec9|34074|file|local|vector|||1.22||
+gmap_api_key|stem||909b3e8b0223a018|c3b5fc02cdc369c1|-731682812||||0|rds|local|vector|||1.58||..chris_google_apichris_google_api_key.csv does not exist in current working directory CUserschrisOneDrive  Belanger
+index_en|stem|c1333c290b2056fa|e7e0dd9090d82b0c|4745aa592080ea1d|502332226|site_en/index.html*site_en/index.Rmd|t19419.0758756669s|8ad0166b91eaba68|1036942|file|local|vector|||2.21||
+index_fr|stem|78392c83a1f43979|fe65211b713f3727|4745aa592080ea1d|-636881759|site_fr/index.html*site_fr/index.Rmd|t19419.0789664093s|35b666b90e92e8ca|1039193|file|local|vector|||3.4||
+lang|stem|97b1de496a8ad367|595a37a353973228|d999a8373e75f73b|-1451205486|_targets/objects/lang|89961e9254bf587f|dd1b0cc09f0e6cb5|818|rds|local|vector|||0.08||
+lang_file|stem|a3a1b6fe1c005959|b0716a65add5e914|ef46db3751d8e999|-1609543572|data/langs.csv|t18856.6099738146s|482729213cf81a34|949|file|local|vector|||1.21||
+make_docmap|function|e30fc933fd971bcc|||||||||||||||
+make_docmaps_forweb|function|15f5988f6d6e7c1f|||||||||||||||
+map_langs|stem|97b1de496a8ad367|595a37a353973228|d999a8373e75f73b|649478011||t18856.6242273899s|73ea7a19f0daa509|818|rds|local|vector|||1.28||
+map_ottawa_en|stem|0423d8e73b6f5a12|a2ef3621d29c9563|66f17f75480abc67|1793079536|_targets/objects/map_ottawa_en|96a507b4170976ee|10da61cba4cac40f|44|rds|local|vector|||2.95||
+map_ottawa_fr|stem|0423d8e73b6f5a12|10e39c4faceabf78|66f17f75480abc67|-1876163993|_targets/objects/map_ottawa_fr|cc31283446a809f7|10da61cba4cac40f|44|rds|local|vector|||5.82|package htmltools was built under R version 4.0.5|
+map_renfrew_en|stem|0423d8e73b6f5a12|0c77557a462b88e5|7a9e278e12326793|1552243324|_targets/objects/map_renfrew_en|af7472b3000f8b1a|10da61cba4cac40f|44|rds|local|vector|||1.21||
+map_renfrew_fr|stem|0423d8e73b6f5a12|960db5adeac7e27c|7a9e278e12326793|579364219|_targets/objects/map_renfrew_fr|19d01ed87467df2b|10da61cba4cac40f|44|rds|local|vector|||0.99||
+maps_alberta|stem|15d7f6b08f6e9a66|8553c885e1e1a898|fe149b09a31cad25|-1551080632||t19419.0761401478s|a1c456b03adbfbf8|44|rds|local|vector|||22.45||
+maps_ottawa|stem|15d7f6b08f6e9a66|3471ab442d9d5cd5|413fc49bbfeb46b9|807318398||t19419.0723312337s|a1c456b03adbfbf8|44|rds|local|vector|||5.08||
+maps_renfrew|stem|15d7f6b08f6e9a66|22220e1a71343d22|9fd623c5b7f4f088|-1170904835||t19419.0722721851s|a1c456b03adbfbf8|44|rds|local|vector|||2.24||

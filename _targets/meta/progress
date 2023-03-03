@@ -1,5 +1,12 @@
 name|type|parent|branches|progress
-docs_ottawa_file|stem|docs_ottawa_file|0|started
-docs_ottawa_file|stem|docs_ottawa_file|0|built
-maps_ottawa|stem|maps_ottawa|0|started
-maps_ottawa|stem|maps_ottawa|0|built
+lang_file|stem|lang_file|0|skipped
+docs_renfrew_file|stem|docs_renfrew_file|0|skipped
+index_fr|stem|index_fr|0|started
+index_fr|stem|index_fr|0|built
+docs_alberta_file|stem|docs_alberta_file|0|skipped
+index_en|stem|index_en|0|skipped
+docs_ottawa_file|stem|docs_ottawa_file|0|skipped
+map_langs|stem|map_langs|0|skipped
+maps_alberta|stem|maps_alberta|0|skipped
+maps_renfrew|stem|maps_renfrew|0|skipped
+maps_ottawa|stem|maps_ottawa|0|skipped

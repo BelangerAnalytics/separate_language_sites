@@ -112,14 +112,14 @@ make_docmap <- function(data_file, # = "data/docs_ottawa",
   ## LANGUAGE-SPECIFIC VARIABLES FOR MAP LABELS
   if (map_language == "EN"){
     langs_spoken <- "Languages Spoken"
-    cpso_num <- "CPSO #"
+    cpso_num <- "Registration #"
     contact_information <- "Address"
     phone_num <- "Phone"
     fax_num <- "Fax"
   }
   if (map_language == "FR"){
     langs_spoken <- "Langues parlées"
-    cpso_num <- "# CPSO"
+    cpso_num <- "# d'enregistrement"
     contact_information <- "Coordonnées"
     phone_num <- "Téléphone"
     fax_num <- "Fax"

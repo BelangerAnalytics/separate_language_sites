@@ -52,7 +52,7 @@ list(
       "data/docs_ottawa_mapclean_2023-01-06.csv",
     format = "file"
   ),
-  
+
   tar_target(maps_ottawa,
              make_docmaps_forweb(docs_ottawa_file, "ottawa", map_langs)),
   
@@ -88,6 +88,18 @@ list(
   tar_target(maps_renfrew,
              make_docmaps_forweb(docs_renfrew_file, "renfrew", map_langs)),
   
+  
+  ## ALBERTA
+  
+  
+  tar_target(
+    docs_alberta_file,
+    "data/AB-docs-clean-geocoded-filtered-docmapper-2023-03-02.csv",
+    format = "file"
+  ),
+  
+  tar_target(maps_alberta,
+             make_docmaps_forweb(docs_alberta_file, "alberta", map_langs)),
   
   # tar_target(
   #   map_renfrew_en,

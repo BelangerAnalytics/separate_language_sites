@@ -168,3 +168,56 @@ Les données ont été recueillies auprès du comté de Renfrew et de l'Ordre de
 <!-- `r contact_fr` -->
 
 *Site mis à jour le `r Sys.Date()`. Conception et analyse par [Belanger Analytics Inc.](https://www.belangeranalytics.com)*
+
+
+Alberta {data-navmenu="Cartes des régions"}
+=====================================  
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### 
+
+```{r out.extra='style="border: none;"', out.width = "100%", out.height="100%"}
+
+# docmap_fr
+knitr::include_url("maps/alberta_fr.html", height = "100%")
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+
+### Trouvez un médecin de famille 
+
+Cette carte interactive bilingue indique les noms, les emplacements et les compétences linguistiques des médecins de famille qui desservent le Comté de Renfrew en Ontario. **Veuillez noter** que cette carte ne fournit aucune information sur les médecins qui acceptent de nouveaux patients.
+
+Sélectionnez une langue parmi les options de la carte pour voir tous les médecins de famille qui déclarent pouvoir la parler.
+
+Si les médecins sont proches les uns des autres, la carte les regroupe en grappes. Faites un zoom avant ou cliquez sur un groupe pour voir les marqueurs de chaque médecin.
+
+Si vous passez votre souris sur un marqueur, les informations relatives au médecin s'affichent. Si vous cliquez dessus, les informations s'affichent avec un lien cliquable permettant de visualiser sa clinique sur Google Maps pour trouver son chemin.
+
+*Veuillez noter que cette liste n'est fournie qu'à titre d'information et qu'il n'est pas garanti que les médecins qui y figurent acceptent de nouveaux patients.*
+
+
+### Les Données
+
+*Disclaimer:*  
+
+Ces données sont fournies dans la mesure du possible, sans garantie quant à leur exhaustivité ou leur fiabilité. Il n'est pas garanti que tous les médecins listés ici acceptent de nouveaux patients.
+
+*Sources des données:*
+
+Les données ont été recueillies auprès du Collège des médecins et chirurgiens de l'Alberta au hiver 2023. Elles sont revues et mises à jour de temps à autre pour en assurer l'exactitude, mais il peut y avoir des erreurs ou des données incomplètes. 
+
+*Information sur les licences de droit d'auteur:*
+
+`r license_fr`
+
+<!-- *Nous contacter:* -->
+
+<!-- `r contact_fr` -->
+
+*Site mis à jour le `r Sys.Date()`. Conception et analyse par [Belanger Analytics Inc.](https://www.belangeranalytics.com)*
