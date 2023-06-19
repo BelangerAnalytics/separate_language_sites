@@ -12,7 +12,8 @@ output:
     navbar:
     - { title: "Français", href: "https://www.trouvezunmedecin.ca" }
 ---
-```{=html}
+```{r, eval=FALSE}
+#```{=html}
 <div class="modal show"  id="surveyModal">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -77,7 +78,7 @@ Column {data-width=350}
 
 ### Finding a Family Physician
 
-**We want to hear what you think!** [Please take a moment to fill out a short, anonymous survey to help us improve our interactive map.](https://redcap.montfort.on.ca/redcap/surveys/?s=3YXC97897LF9DCF4)
+<!-- **We want to hear what you think!** [Please take a moment to fill out a short, anonymous survey to help us improve our interactive map.](https://redcap.montfort.on.ca/redcap/surveys/?s=3YXC97897LF9DCF4) -->
 
 This interactive bilingual map shows the names, practice locations, and language abilities of family physicians who serve the community in Ottawa, Ontario. **Please note:** This map does not provide any information about which physicians are taking on new patients.
 

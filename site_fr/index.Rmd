@@ -13,7 +13,9 @@ output:
     - { title: "English", href: "https://www.docmapper.ca" }
 ---
 
-```{=html}
+
+```{r, eval=FALSE}
+#```{=html}
 <div class="modal show"  id="surveyModal">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -82,7 +84,7 @@ Column {data-width=350}
 
 ### Trouvez un médecin de famille 
 
-**Nous voulons savoir ce que vous pensez!** [Veuillez s'il vous plait prendre un moment pour répondre à un court sondage de manière anonyme afin de nous aider à améliorer notre carte interactive.](https://redcap.montfort.on.ca/redcap/surveys/?s=3YXC97897LF9DCF4)
+<!-- **Nous voulons savoir ce que vous pensez!** [Veuillez s'il vous plait prendre un moment pour répondre à un court sondage de manière anonyme afin de nous aider à améliorer notre carte interactive.](https://redcap.montfort.on.ca/redcap/surveys/?s=3YXC97897LF9DCF4) -->
 
 Cette carte interactive bilingue indique les noms, les emplacements et les compétences linguistiques des médecins de famille qui desservent la communauté d'Ottawa, en Ontario. **Veuillez noter** que cette carte ne fournit aucune information sur les médecins qui acceptent de nouveaux patients.
 
